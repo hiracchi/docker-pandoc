@@ -1,6 +1,6 @@
-PACKAGE="hiracchi/django"
+PACKAGE="hiracchi/pandoc"
 TAG=latest
-CONTAINER_NAME="django"
+CONTAINER_NAME="pandoc"
 ARG=
 
 .PHONY: build start stop restart term logs
