@@ -18,7 +18,9 @@ RUN set -x \
   && apt-get install -y \
      make \
      pandoc \
-     texlive-lang-japanese texlive-lang-cjk xdvik-ja gv evince \
+     texlive-lang-japanese texlive-lang-cjk \
+     texlive-luatex \
+     xdvik-ja gv evince \
      texlive-fonts-recommended texlive-fonts-extra \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
